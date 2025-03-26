@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A0CFC79F2D948D3000B7D73B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0CFC7802D948D2C00B7D73B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0CFC7872D948D2C00B7D73B;
+			remoteInfo = "HardBoiled-EggTimer";
+		};
+		A0CFC7A92D948D3000B7D73B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0CFC7802D948D2C00B7D73B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0CFC7872D948D2C00B7D73B;
+			remoteInfo = "HardBoiled-EggTimer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0CFC7882D948D2C00B7D73B /* HardBoiled-EggTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HardBoiled-EggTimer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CFC79E2D948D3000B7D73B /* HardBoiled-EggTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HardBoiled-EggTimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CFC7A82D948D3000B7D73B /* HardBoiled-EggTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HardBoiled-EggTimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A0CFC7B02D948D3000B7D73B /* Exceptions for "HardBoiled-EggTimer" folder in "HardBoiled-EggTimer" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A0CFC7872D948D2C00B7D73B /* HardBoiled-EggTimer */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A0CFC78A2D948D2C00B7D73B /* HardBoiled-EggTimer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A0CFC7B02D948D3000B7D73B /* Exceptions for "HardBoiled-EggTimer" folder in "HardBoiled-EggTimer" target */,
+			);
+			path = "HardBoiled-EggTimer";
+			sourceTree = "<group>";
+		};
+		A0CFC7A12D948D3000B7D73B /* HardBoiled-EggTimerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "HardBoiled-EggTimerTests";
+			sourceTree = "<group>";
+		};
+		A0CFC7AB2D948D3000B7D73B /* HardBoiled-EggTimerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "HardBoiled-EggTimerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0CFC7852D948D2C00B7D73B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CFC79B2D948D3000B7D73B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CFC7A52D948D3000B7D73B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0CFC77F2D948D2C00B7D73B = {
+			isa = PBXGroup;
+			children = (
+				A0CFC78A2D948D2C00B7D73B /* HardBoiled-EggTimer */,
+				A0CFC7A12D948D3000B7D73B /* HardBoiled-EggTimerTests */,
+				A0CFC7AB2D948D3000B7D73B /* HardBoiled-EggTimerUITests */,
+				A0CFC7892D948D2C00B7D73B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0CFC7892D948D2C00B7D73B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0CFC7882D948D2C00B7D73B /* HardBoiled-EggTimer.app */,
+				A0CFC79E2D948D3000B7D73B /* HardBoiled-EggTimerTests.xctest */,
+				A0CFC7A82D948D3000B7D73B /* HardBoiled-EggTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0CFC7872D948D2C00B7D73B /* HardBoiled-EggTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0CFC7B12D948D3000B7D73B /* Build configuration list for PBXNativeTarget "HardBoiled-EggTimer" */;
+			buildPhases = (
+				A0CFC7842D948D2C00B7D73B /* Sources */,
+				A0CFC7852D948D2C00B7D73B /* Frameworks */,
+				A0CFC7862D948D2C00B7D73B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A0CFC78A2D948D2C00B7D73B /* HardBoiled-EggTimer */,
+			);
+			name = "HardBoiled-EggTimer";
+			packageProductDependencies = (
+			);
+			productName = "HardBoiled-EggTimer";
+			productReference = A0CFC7882D948D2C00B7D73B /* HardBoiled-EggTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0CFC79D2D948D3000B7D73B /* HardBoiled-EggTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0CFC7B62D948D3000B7D73B /* Build configuration list for PBXNativeTarget "HardBoiled-EggTimerTests" */;
+			buildPhases = (
+				A0CFC79A2D948D3000B7D73B /* Sources */,
+				A0CFC79B2D948D3000B7D73B /* Frameworks */,
+				A0CFC79C2D948D3000B7D73B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0CFC7A02D948D3000B7D73B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A0CFC7A12D948D3000B7D73B /* HardBoiled-EggTimerTests */,
+			);
+			name = "HardBoiled-EggTimerTests";
+			packageProductDependencies = (
+			);
+			productName = "HardBoiled-EggTimerTests";
+			productReference = A0CFC79E2D948D3000B7D73B /* HardBoiled-EggTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0CFC7A72D948D3000B7D73B /* HardBoiled-EggTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0CFC7B92D948D3000B7D73B /* Build configuration list for PBXNativeTarget "HardBoiled-EggTimerUITests" */;
+			buildPhases = (
+				A0CFC7A42D948D3000B7D73B /* Sources */,
+				A0CFC7A52D948D3000B7D73B /* Frameworks */,
+				A0CFC7A62D948D3000B7D73B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0CFC7AA2D948D3000B7D73B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A0CFC7AB2D948D3000B7D73B /* HardBoiled-EggTimerUITests */,
+			);
+			name = "HardBoiled-EggTimerUITests";
+			packageProductDependencies = (
+			);
+			productName = "HardBoiled-EggTimerUITests";
+			productReference = A0CFC7A82D948D3000B7D73B /* HardBoiled-EggTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0CFC7802D948D2C00B7D73B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					A0CFC7872D948D2C00B7D73B = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					A0CFC79D2D948D3000B7D73B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A0CFC7872D948D2C00B7D73B;
+					};
+					A0CFC7A72D948D3000B7D73B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A0CFC7872D948D2C00B7D73B;
+					};
+				};
+			};
+			buildConfigurationList = A0CFC7832D948D2C00B7D73B /* Build configuration list for PBXProject "HardBoiled-EggTimer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0CFC77F2D948D2C00B7D73B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A0CFC7892D948D2C00B7D73B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0CFC7872D948D2C00B7D73B /* HardBoiled-EggTimer */,
+				A0CFC79D2D948D3000B7D73B /* HardBoiled-EggTimerTests */,
+				A0CFC7A72D948D3000B7D73B /* HardBoiled-EggTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0CFC7862D948D2C00B7D73B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CFC79C2D948D3000B7D73B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CFC7A62D948D3000B7D73B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0CFC7842D948D2C00B7D73B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CFC79A2D948D3000B7D73B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CFC7A42D948D3000B7D73B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0CFC7A02D948D3000B7D73B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0CFC7872D948D2C00B7D73B /* HardBoiled-EggTimer */;
+			targetProxy = A0CFC79F2D948D3000B7D73B /* PBXContainerItemProxy */;
+		};
+		A0CFC7AA2D948D3000B7D73B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0CFC7872D948D2C00B7D73B /* HardBoiled-EggTimer */;
+			targetProxy = A0CFC7A92D948D3000B7D73B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A0CFC7B22D948D3000B7D73B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D9C28JTVJV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HardBoiled-EggTimer/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cybercitycode.HardBoiled-EggTimer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0CFC7B32D948D3000B7D73B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D9C28JTVJV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HardBoiled-EggTimer/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cybercitycode.HardBoiled-EggTimer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0CFC7B42D948D3000B7D73B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0CFC7B52D948D3000B7D73B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0CFC7B72D948D3000B7D73B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D9C28JTVJV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cybercitycode.HardBoiled-EggTimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HardBoiled-EggTimer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HardBoiled-EggTimer";
+			};
+			name = Debug;
+		};
+		A0CFC7B82D948D3000B7D73B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D9C28JTVJV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cybercitycode.HardBoiled-EggTimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HardBoiled-EggTimer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HardBoiled-EggTimer";
+			};
+			name = Release;
+		};
+		A0CFC7BA2D948D3000B7D73B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D9C28JTVJV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cybercitycode.HardBoiled-EggTimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HardBoiled-EggTimer";
+			};
+			name = Debug;
+		};
+		A0CFC7BB2D948D3000B7D73B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D9C28JTVJV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cybercitycode.HardBoiled-EggTimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HardBoiled-EggTimer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0CFC7832D948D2C00B7D73B /* Build configuration list for PBXProject "HardBoiled-EggTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CFC7B42D948D3000B7D73B /* Debug */,
+				A0CFC7B52D948D3000B7D73B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0CFC7B12D948D3000B7D73B /* Build configuration list for PBXNativeTarget "HardBoiled-EggTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CFC7B22D948D3000B7D73B /* Debug */,
+				A0CFC7B32D948D3000B7D73B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0CFC7B62D948D3000B7D73B /* Build configuration list for PBXNativeTarget "HardBoiled-EggTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CFC7B72D948D3000B7D73B /* Debug */,
+				A0CFC7B82D948D3000B7D73B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0CFC7B92D948D3000B7D73B /* Build configuration list for PBXNativeTarget "HardBoiled-EggTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CFC7BA2D948D3000B7D73B /* Debug */,
+				A0CFC7BB2D948D3000B7D73B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0CFC7802D948D2C00B7D73B /* Project object */;
+}
